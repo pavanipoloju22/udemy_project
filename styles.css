@@ -1,0 +1,333 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    padding: 10px;
+}
+#search{
+    background-image: url(icons8-search-144.png);
+    background-repeat: no-repeat;
+    width:20rem;
+    background-size: 24px;
+    background-position: 10px 10px;
+    height: 3rem;
+    border-radius: 3rem;
+    padding-left: 2.5rem;
+    border-color: 1px solid black;
+    
+}
+#loginbtn{
+    width:4rem;
+    height:2.5rem;
+    border: 1px solid black;
+    background-color: white;
+}
+#signupbtn{
+    width:4rem;
+    height:2.5rem;
+    background-color: black;
+    color:white;
+}
+
+#menu{
+    display:none;
+}
+.carousel-control-prev-icon{
+    background-color:black;
+    border-radius: 20px;
+}
+
+.carousel-control-next-icon{
+    background-color:black;
+    border-radius: 20px;
+}
+.course  a:hover{
+
+        background-color:rgb(70, 69, 69);
+        font-size: 18px;
+      
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 24px;
+        text-wrap: wrap;
+    }
+   
+    .detailed_course{
+        display: flex;
+      column-gap: 20px;
+      row-gap:10px;
+     flex-wrap: wrap;
+    
+       
+    }
+    #button{
+        display: flex;
+      column-gap: 20px;
+      row-gap:10px;
+     flex-wrap: wrap;
+     padding-left: 30px;
+
+     
+    }
+    #card1{
+        border:1px solid black;
+        box-shadow: 3px 3px 3px 3px  blue;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        align-items: left;
+        width:300px;
+        margin-left: 20px;
+        padding-left: 20px;
+        
+       
+        
+    }
+    .images{
+        background-color:white;
+        justify-content:space-around;
+        
+        flex-wrap: wrap;
+        padding: 50px;
+        align-items: center; 
+        column-gap:5rem;
+        row-gap: 10px;
+        
+    }
+    .goals{
+        display: flex;
+        
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #goals_1{
+        width:350px;
+        border-right: 1px solid purple;;
+        background-position: 10px 10px;
+        padding:10px;
+        border-top: 1px solid purple;;
+        border-left:10px solid purple; 
+        border-bottom: 1px solid purple;
+        border-radius: 20px;
+        
+       
+        
+        
+    }
+    #goals_2{
+        background-position: 10px 10px;
+        padding: 10px;
+        border-radius: 20px;
+        width:350px;
+        border:1px solid rgb(227, 223, 223)
+        
+
+    }
+    #goals_3{
+        background-position: 10px 10px;
+        padding: 10px;
+        border-radius: 20px;
+        width:350px;
+        border:1px solid rgb(227, 223, 223)
+    }
+    #goals_4{
+        background-position: 10px 10px;
+        padding: 10px;
+        border-radius: 20px;
+        width:350px;
+        border:1px solid rgb(227, 223, 223)
+    }
+    
+    
+    .plans{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        background-color:white;
+        
+    }
+    
+    #plan1{
+        border-top:10px solid purple;
+        border-left: 1px solid #bbb;
+        border-right:1px solid #bbb; 
+        border-bottom: 1px solid #bbb;
+        padding: 15px;
+        border-radius: 5px;
+        column-gap: 10px;
+        
+
+    }   
+.lerners{
+    display: flex;
+      column-gap: 20px;
+      row-gap:10px;
+     flex-wrap: wrap;
+    background-color: rgb(188, 187, 185);
+    float:left;
+    
+    justify-content: space-between;
+}
+#learn1 {
+        border:1px solid black;
+        box-shadow: 3px 3px 3px 3px  blue;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 10px;
+        align-items: left;
+        width:300px;
+        padding-left: 20px;
+        }
+        #learn1 a{
+            color:purple;
+            font-size: 18px;
+        }
+.reports{
+        background-color: rgb(235, 244, 241);
+         display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+}
+#reports_1{
+    background-color: rgb(242, 250, 247);
+}
+.trendings{
+   
+    background-color: rgb(233, 237, 235);
+    display:flex;
+    flex-wrap: wrap;
+   
+    
+}
+#trending1 {
+        padding: 30px;
+         background-color: rgb(233, 237, 235);
+         column-gap: 30px;
+         margin-left: 30px;
+        
+}
+#trending2{
+    column-gap: 30px;
+    padding: 15px;
+         }
+#trending3{
+         padding: 30px;
+         column-gap: 30px;
+         } 
+#trending4{
+            padding: 30px;
+            column-gap: 30px;
+            } 
+#trending1 a{
+font-size: 20px;
+            } 
+#trending2 a{
+            font-size: 20px;
+            }   
+#trending3 a{
+            font-size: 20px;
+            }   
+#trending4 a{
+            font-size: 20px;
+             }            
+
+
+.viewings{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap:5px;
+}
+#card_1{
+    border-bottom:1px solid rgb(232, 12, 199);
+    border-left:6px solid rgb(255, 0, 208);
+    border-right: 6px solid rgb(255, 0, 255);
+    border-top: 6px solid rgb(255, 0, 221);
+    display:flex;
+    text-wrap:wrap;
+    flex-direction: column;
+    padding:10px;
+    width:300px;
+    border-radius: 20px;
+    column-gap: 10px;
+    
+    justify-content: space-evenly;
+   
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 100px;
+}
+#btn{
+    padding-bottom: 600px;
+    padding-left: 100px;
+}
+
+
+
+
+.business1{
+    background-color:black;
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    align-items:center;
+    justify-content:space-between;
+    padding:25px;
+    margin-top: 20px;
+    
+    
+}
+
+
+
+
+#business1_1 {
+    background-color:black;
+   
+}
+#business1_2{
+    background-color: black;
+   
+}
+
+
+.business12 {
+    background-color:black;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    align-items:center;
+    justify-content:space-between;
+    
+    }
+    .business12 a{
+        color:white;
+    }
+    #logo{
+        background-color: black;
+    display: flex;
+        padding-right: 1000px;
+        flex-wrap: wrap;
+        
+    }
+@media (max-width:930px){
+    .hidden{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+}
+
